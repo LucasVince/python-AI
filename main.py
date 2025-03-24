@@ -42,7 +42,6 @@ def predict_phrase(phrase):
 
 new_phrase = input('type a phrase(negative or positive), and the AI will try to predict: ')
 res = predict_phrase(new_phrase)
-print(res)
 store_phrase = input('is it right??')
 
 if store_phrase.lower() == 'yes':
